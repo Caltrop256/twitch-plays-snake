@@ -2,5 +2,7 @@
     "width": 1920,
     "height": 1080,
     "framerate": 30,
-    "streamToken": "twitch streaming key"
+    "streamToken": "twitch streaming key",
+    "channelName": "caltrop256",
+    "ffmpegPath": "this should be the absolute or relative path to the ffmpeg executable"
 }

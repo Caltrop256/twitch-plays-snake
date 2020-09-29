@@ -1,5 +1,5 @@
 module.exports = class Sidebar {
-    constructor(width, height) {
+    constructor(width, height, cName) {
         this.width = ~~(width * (1 - (9 / 16)));
         this.height = ~~height;
         this.offsetX = width - this.width;
@@ -30,7 +30,7 @@ module.exports = class Sidebar {
             }
         });
         this.chat.connect();
-        this.chat.join("caltrop256");
+        this.chat.join(cName);
     }
 
     render(canvas) {
