@@ -1,5 +1,4 @@
 # twitch-plays-snake
- 
 * [About](#About)
 * [Building](#Building)
     * [Cloning](#Cloning)
